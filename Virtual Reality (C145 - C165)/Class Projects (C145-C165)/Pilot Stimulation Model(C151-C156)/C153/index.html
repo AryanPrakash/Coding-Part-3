@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+    <script src="./components/Rotation.js"></script>
+
+  </head>
+
+  <body>
+    <a-scene background="color:#026F90">
+
+      <a-entity id="look" look-controls camera position="0 2 20"></a-entity>
+
+      <!--Asset Management-->
+      <a-assets timeout="20000">        
+        <a-asset-item id = "terrainmap" src = "./assets/models/terrain/scene.gltf">
+        
+        </a-asset-item>
+      <a-asset-item id="airplane" src = "./assets/models/airplane/scene.gltf"></a-asset-item>
+      </a-assets>
+
+      <!-- Terrain  -->
+      <a-entity id = "terrain" gltf-model = "#terrainmap" position = '0 0 0' scale = '0.3 0.3 0.3'
+      animation = 'property: position; to:0 0 1000; easing: linear; loop: true; duration: 150000'
+      terrain-rotation-reader></a-entity>
+
+      <!--AIRPLANE-->
+      <a-entity id = "airplane-2" gltf-model = "#airplane" rotation = '0 90 0' position = '0 0 15' scale = '1 1 1' 
+      plane-rotation-reader></a-entity>
+      
+    </a-scene>
+  </body>
+</html>

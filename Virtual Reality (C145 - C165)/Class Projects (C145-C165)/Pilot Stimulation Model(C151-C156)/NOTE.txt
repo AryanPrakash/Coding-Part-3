@@ -1,0 +1,2 @@
+NOTE: 
+Assets => airplane and terrain - is needed for C154, C155, C156
