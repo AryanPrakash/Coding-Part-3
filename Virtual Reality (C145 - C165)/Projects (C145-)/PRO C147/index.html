@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #00AAEE">
+<!--red, green ,blue-->
+
+    <!--Camera-->
+    <a-entity position="0 0 15">
+        <a-camera></a-camera>
+    </a-entity>
+
+    <a-plane id="ground"
+src="I:/Coding-Part-2-Python/Python-4 (C145-190) (3D MODELS)/Projects/PRO C147/carpet-20820761.jpg"
+position="0 0 0" rotation="-90 0 0" width="20" height="10"
+></a-plane>
+
+<a-plane
+    id = "woodenfloor"
+    src = "I:/Coding-Part-2-Python/Python-4 (C145-190) (3D MODELS)/Projects/PRO C147/wooden floor.png"
+    rotation  = "-90 0 0"
+    width = "20"
+    height = "20">
+</a-plane>
+
+<!--Sky-->
+<a-sky></a-sky>
+    </a-scene>
+</body>
+
+</html>

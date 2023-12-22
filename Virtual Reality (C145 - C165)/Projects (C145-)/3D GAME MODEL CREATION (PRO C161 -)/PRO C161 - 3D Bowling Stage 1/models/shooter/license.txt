@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bowling Pack (Bowling Pins & Ball)
+* source:	https://sketchfab.com/3d-models/bowling-pack-bowling-pins-ball-52743c4714c14211ac71d2fe1e5c8da3
+* author:	EverZax (https://sketchfab.com/EverZax)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bowling Pack (Bowling Pins & Ball)" (https://sketchfab.com/3d-models/bowling-pack-bowling-pins-ball-52743c4714c14211ac71d2fe1e5c8da3) by EverZax (https://sketchfab.com/EverZax) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
