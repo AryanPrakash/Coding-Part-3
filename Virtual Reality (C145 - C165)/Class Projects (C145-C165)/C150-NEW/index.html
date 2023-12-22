@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<Html>
+    <Head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src = 'log.js'></script>
+        <script src = 'box.js'></script>
+    </Head>
+    <body>
+        <!--System-->
+        
+        <a-scene background = 'color: #011F43'>
+            <a-camera position = '0 0 0'></a-camera>
+            <!--Single property component-->
+            <a-entity log = 'message: Success'></a-entity>
+            
+            <a-entity  position = '0 0 0' box-move>
+                <a-box></a-box>
+            </a-entity>
+        </a-scene>
+    </body>
+</Html>
